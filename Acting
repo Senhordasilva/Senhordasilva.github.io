@@ -1,0 +1,14 @@
+import random
+
+attribute = ["cheeky", "shy", "aggressive", "sad", "crazy", "stupid", "boring", "trunk", "paranoid"]
+role = ["father", "husband", "gangster", "police officer", "president", "rockstar", "teacher", "business man", "lawyer", "pilot", "actor", "artist", "underground fighter", "brother"]
+activity = ["You stole a car", "you killed a kat", "you fart in the car", "you phone is empoty", "you lost your virginity", "you invented extra smooth underwear", "you're caught red-handed", "your daughter came home with her new and thirty year old boyfriend"]
+
+
+
+
+
+
+print("Welcome player, todays performance: ")
+print("you are a " + random.choice(attribute) + " "+ random.choice(role)+ " and " + random.choice(activity) +".")
+print("You've got thirty seconds.")
